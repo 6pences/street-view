@@ -1,0 +1,13 @@
+<!--pages/views/views.wxml-->
+<scroll-view class="views" scroll-y="true">
+    <view wx:for="{{list}}" wx:for-item="pageInfo" data-id="{{pageInfo.area}}" wx:key="index">
+        <view wx:for="{{pageInfo.cityStreetScaps}}" wx:for-item="item" data-id="{{item.id}}" wx:key="index">
+            <view class="view-card" bindtap="toMap" data-url="{{item.broadcastUrl}}">
+                <image class="view-card-image" src="{{item.imageUrl}}"></image>
+                <text class="view-card-banner">进入景区</text>
+                <text class="view-card-name" mode="aspectFit">{{item.name}}</text>
+            </view>
+        </view>
+        <!-- <ad></ad> -->
+    </view>
+</scroll-view>

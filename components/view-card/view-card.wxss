@@ -1,0 +1,16 @@
+/* components/view-card.wxss */
+.view-card {
+    border-radius: 15px;
+    height: 100%;
+    background-color: gray;
+}
+.view-card-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.view-card-banner {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}

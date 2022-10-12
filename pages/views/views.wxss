@@ -1,0 +1,32 @@
+/* pages/views/views.wxss */
+.views {
+    height: 100%;
+    width: 100%;
+}
+.view-card {
+    border-radius: 15px;
+    height: 160px;
+    margin: 20px;
+    overflow: hidden;
+}
+.view-card-image {
+    height: 100%;
+    width: 100%;
+}
+.view-card-name {
+    position: relative;
+    top: -30px;
+    left: -84px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.view-card-banner {
+    position: relative;
+    top: -160px;
+    padding: 10px;
+    background-color: #6759ea;
+    border-radius: 0 0 15px 0;
+    color: white;
+}
