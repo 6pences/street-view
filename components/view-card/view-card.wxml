@@ -1,6 +1,0 @@
-<!--components/view-card.wxml-->
-<view class="view-card">
-    <image src="{{image}}"></image>
-    <text class="view-card-name">{{name}}</text>
-    <text class="view-card-banner">进入景区</text>
-</view>
